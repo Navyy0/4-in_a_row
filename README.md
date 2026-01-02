@@ -50,7 +50,6 @@ Open http://localhost:3000
 
 ## Project Structure
 
-```
 d:/task-backend/
 ├── backend/
 │   ├── src/
