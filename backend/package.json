@@ -1,0 +1,22 @@
+{
+  "name": "connect-four-backend",
+  "version": "1.0.0",
+  "description": "Connect Four game backend with Node.js, Express, WebSocket, and PostgreSQL",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "kafkajs": "^2.2.4",
+    "pg": "^8.8.0",
+    "socket.io": "^4.5.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

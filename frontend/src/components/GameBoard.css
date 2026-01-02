@@ -1,0 +1,100 @@
+.game-board {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.game-header {
+  margin-bottom: 20px;
+}
+
+.game-header h2 {
+  margin: 0 0 15px 0;
+  color: #333;
+}
+
+.player-info {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.player-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.board-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.board {
+  background-color: #0066cc;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.row {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.row:last-child {
+  margin-bottom: 0;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  background-color: #0052a3;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cell:hover {
+  background-color: #003d7a;
+}
+
+.disc {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.game-status {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.your-turn {
+  color: #00aa00;
+}
+
+.opponent-turn {
+  color: #ff6b6b;
+}
+
+.forfeit-button {
+  background-color: #ff6b6b;
+  width: 100%;
+  padding: 12px;
+}
+
+.forfeit-button:hover {
+  background-color: #ff4444;
+}
